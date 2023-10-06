@@ -73,3 +73,35 @@ main {
 
 }
 
+.title {
+  margin-bottom: 0;
+  color: rgb(0, 9, 133);
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  transition: var(--transition);
+}
+
+.edit-btn {
+  border: none;
+  background-color:rgb(224, 125, 12);
+  border-radius: 10px;
+  color: bisque;
+  padding: 2px;
+}
+
+.delete-btn {
+  border: none;
+  background-color:rgb(224, 12, 118);
+  border-radius: 10px;
+  color: bisque;
+  padding: 2px;
+}
+
+.clear-btn {
+  background-color: rgb(243, 73, 73);
+  height: 20px;
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
