@@ -4,8 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grocery List App</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-  
+  <section class="section-center">
+    <!-- form -->
+    <form class="grocery-form">
+      <p class="alert"></p>
+      <h3 class="bud">Grocery Bud</h3>
+      <div class="form-control">
+        <input type="text" id="grocery" placeholder="enter item to add" />
+        <button type="submit" class="submit-btn">submit</button>
+      </div>
+    </form>
+    <!-- list -->
+    <div class="grocery-container">
+      <div class="grocery-list"></div>
+      <button class="clear-btn">clear All</button>
+    </div>
+  </section>
+  <script src="./assets/script/script.js"></script>
 </body>
 </html>

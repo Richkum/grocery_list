@@ -3,3 +3,105 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.section-center {
+  background: #3fa3d1;
+  border: solid 3px rgb(0, 0, 143);
+  border-radius: 15px;
+  padding: 2rem;
+  opacity: 1;
+}
+
+.bud {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: xx-large;
+  text-transform: inherit;
+}
+
+.form-control {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  padding: 10px;
+}
+
+#grocery {
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  width: 75%;
+}
+
+.submit-btn {
+  width: 20%;
+  background-color: green;
+  color: bisque;
+  border: none;
+  border-radius: 5px;
+}
+
+.grocery-container {
+  margin-top: 2rem;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px;
+  padding: 5px;
+  background: rgb(184, 183, 183);
+  border-radius: 10px;
+
+}
+
+.title {
+  margin-bottom: 0;
+  color: rgb(0, 9, 133);
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  transition: var(--transition);
+}
+
+.edit-btn {
+  border: none;
+  background-color:rgb(224, 125, 12);
+  border-radius: 10px;
+  color: bisque;
+  padding: 2px;
+}
+
+.delete-btn {
+  border: none;
+  background-color:rgb(224, 12, 118);
+  border-radius: 10px;
+  color: bisque;
+  padding: 2px;
+}
+
+.clear-btn {
+  background-color: rgb(243, 73, 73);
+  height: 20px;
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
